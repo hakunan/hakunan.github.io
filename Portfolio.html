@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ポートフォリオ</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <script type='module' src='https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js'></script>
+<script nomodule src='https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js'></script>
+</head>
+<body>
+  <main>
+    <!-- プロフィールセクション -->
+    <section class="profile">
+      <img src="profile.jpg" alt="プロフィール画像" class="profile-img" />
+      <div class="profile-text">
+        <h1>藤倉羽琥空（フジクラ ハクア）</h1>
+
+        <h2>【自己紹介】</h2>
+        <p>
+          小学生からの夢である「エンジニア」を形にするために、ゲームプログラミングやコーディングを中心に、3DCGを学びながら好きな創作を続けてきました。
+        </p>
+
+        <h3>【創作へのこだわり】</h3>
+        <p>
+          個人製作ではできる限り世界観やイメージに近づけるように3DCGを独学で学びました。<br>
+          チーム制作においては、円滑なコミュニケーションを重視し、複数人でも読みやすく効率的なコーディングを心がけています。
+        </p>
+
+        <h3>【いままで】</h3>
+        <p>
+          個人制作ゲームのほか、これまでに学んだCGやコーディングを活かして、ゲーム用アセットの制作や、メタバースゲーム向けのギミックやモデルのリリースも行ってきました。<br>
+          「とりあえず触ってみる」を大切にしながら、日々新しいことに挑戦しています。
+        </p>
+      </div>
+    </section>
+
+    <!-- スキル（言語） -->
+    <section class="skills languages">
+      <h2 class="accent-title">スキル</h2>
+      <div class="skill-grid">
+        <div class="skill-card"><h4>C#</h4><span class="badge strong">得意</span></div>
+        <div class="skill-card"><h4>JavaScript</h4><span class="badge medium">中級</span></div>
+        <div class="skill-card"><h4>HTML</h4><span class="badge medium">中級</span></div>
+        <div class="skill-card"><h4>CSS</h4><span class="badge medium">中級</span></div>
+        <div class="skill-card"><h4>C++</h4><span class="badge beginner">勉強中🔰</span></div>
+        <div class="skill-card"><h4>Python</h4><span class="badge beginner">勉強中🔰</span></div>
+      </div>
+    </section>
+
+    <!-- スキル（ツール） -->
+    <section class="skills tools">
+      <h2 class="accent-title">ツール・ソフト</h2>
+      <div class="skill-grid">
+        <div class="skill-card"><h4>Unity</h4><span class="badge strong">得意</span></div>
+        <div class="skill-card"><h4>Blender</h4><span class="badge strong">得意</span></div>
+        <div class="skill-card"><h4>Substance Painter</h4><span class="badge medium">中級</span></div>
+        <div class="skill-card"><h4>Unreal Editor</h4><span class="badge medium">中級</span></div>
+        <div class="skill-card"><h4>Godot</h4><span class="badge beginner">勉強中🔰</span></div>
+      </div>
+    </section>
+
+    <h1 class="accent-title">制作作品一覧</h1>
+
+    <!-- 作品1 -->
+    <div class="work" onclick="this.classList.toggle('active')">
+      <div class="work-header">
+        <a href="ProjectAngel/ProjectAngel.html">
+          <img src="ProjectAngel/ProjectAngelMain.jpg" alt="作品1" class="work-img" />
+        </a>
+        <div class="work-info">
+          <h3>Project Angel アクションRPG</h3>
+          <p>自分に自信がない主人公(天音(あまね))18歳。<br>ずっと何かにわからないものにプレッシャーを感じて憂鬱な人生だった。<br>何者かになりたい衝動だけはあって、毎日流れるだけのSNSをみて、ただ時間が過ぎていくだけの日々。<br>外を通る学生を疎ましく思い、学校には行かず、鏡の中や画面の中にいる理想の自分に夢を見てただ空想だけにずっと縋っている。その日はいつも通り眠りについた主人公だったが、部屋の異変に気付く。
+      <br>お気に入りの鏡にひびが入っている。鏡の前に立つといつも通り、理想の自分が鏡に映る。<br>いつもの理想の自分に安心し、ひびに触れる天音。<br>ひびに触れると、鏡の中から手が出てきて理想の自分が天音を鏡の中に引きずり込んだ～、、、</p>
+          <a href="https://drive.google.com/drive/folders/1iqle-Kqfgwe0sdmf3U-_q4Fov5rrGZ9y?usp=sharing" target="_blank">ビルドデータ</a>
+          <div class="work-tags">
+            <h5>担当箇所</h5>
+            <span class="tag">UnrealEditor</span>
+            <span class="tag">ブループリント</span>
+            <span class="tag">C++</span>
+            <span class="tag">チーム制作</span>
+          </div>
+        </div>
+      </div>
+      <div class="work-details">
+        <p>主人公が自分の人格や過去と戦う物語<br>デザイナーと分担して二人で制作した作品 <br>処理の全般を作成しました</p>
+      </div>
+    </div>
+
+    <!-- 作品2 -->
+    <div class="work" onclick="this.classList.toggle('active')">
+      <div class="work-header">
+        <a href="asahichan/WGJ.pdf">
+          <img src="asahichan/AsahichanMain.jpg" alt="作品2" class="work-img" />
+        </a>
+        <div class="work-info">
+          <h3>明日はテストだ！朝日ちゃん</h3>
+          <p>バンタン一年次の際参加した初めてのチーム制作作品　<br>主人公は明日のテスト勉強に向けて！眠らないように明日の点数を取るため勉強します <br>このゲームは勉強フェーズと仮眠フェーズに分かれて眠さゲージがたまらないようにスコアを稼ぐゲーム <br>仮眠フェーズと勉強フェーズで全く別のミニゲームに切り替えることで難易度を図った斬新なシステム <br>ビジュアル世界観にもこだわった作品です</p>
+          <a href="https://unityroom.com/games/202312200627" target="_blank">UnityRoom</a><br>
+          <a href="https://github.com/TsuyoshiUsugi/WinterGameJam2023_Team_Opal" target="_blank">GitHub</a>
+          <div class="work-tags">
+            <h5>担当箇所</h5>
+            <span class="tag">Unity</span>
+            <span class="tag">C#</span>
+            <span class="tag">チーム制作</span>
+          </div>
+        </div>
+      </div>
+      <div class="work-details">
+        <p><p>2023年　株式会社アクワイア様　ウィンターゲームジャム　最多投票数一位受賞作品<br>担当したこと　制限時間の時計やスコアの加算の処理UIシステム関係　ゲームアイディアの立案</p></p>
+      </div>
+    </div>
+
+    <!-- 作品3 -->
+    <div class="work" onclick="this.classList.toggle('active')">
+      <div class="work-header">
+        <a href="Icarus/Icarus.html">
+          <img src="Icarus/icarus.jpg" alt="作品3" class="work-img" />
+        </a>
+        <div class="work-info">
+          <h3>イカロス ICARUS</h3>
+          <p>ギリシャ神話のお話イーカロスが舞台<br>原作の設定に沿った海面そして太陽を避けながらゴールを目指す物語<br>道中迫ってくる鳥やサメなどから逃げ名がらちょうどいい高さを<br>飛行することを求められる難易度の高いゲーム<br>奇しくもトラブル続きな製作となり<br>残念ながら入賞ならず　<br>だが技術的にも経験的にも<br>じぶんのせいちょうや新しい経験を感じられるいい機会となった作品</p>
+          <a href="https://github.com/NodaRintaro/SummerGameJamMars" target="_blank">GitHub</a>
+          <div class="work-tags">
+            <h5>担当箇所</h5>
+            <span class="tag">Unity</span>
+            <span class="tag">C#</span>
+            <span class="tag">チーム制作</span>
+          </div>
+        </div>
+      </div>
+      <div class="work-details">
+        <p>2024年　株式会社アクワイア様　サマーゲームジャム　<br>担当したこと　敵の挙動や生成に衝突判定　飛行時のスタミナ管理のシステムを担当　ステージセレクトなど</p>
+      </div>
+    </div>
+
+    <!-- 作品4 -->
+    <div class="work" onclick="this.classList.toggle('active')">
+      <div class="work-header">
+        <a href="work4_large.jpg" target="_blank">
+          <img src="work4_thumb.jpg" alt="作品4" class="work-img" />
+        </a>
+        <div class="work-info">
+          <h3>OreHunter</h3>
+          <p><p>ローグライク採掘ゲーム<br>自動生成される洞窟で主人公は鉱石や化石を集めるハンターとなって<br> アイテムを収集していく鉱石は新しいツールの強化に<br> 化石はコレクションとして図鑑を埋めていこう！</p></p>
+          <a href="https://drive.google.com/drive/folders/1hXtelGmm-oZ_p_8R_V6_d_7U_SS1bOMP?usp=sharing" target="_blank">GoogleDrive</a>
+          <div class="work-tags">
+            <h5>担当箇所</h5>
+            <span class="tag">Unity</span>
+            <span class="tag">C#</span>
+            <span class="tag">チーム制作</span>
+          </div>
+        </div>
+      </div>
+      <div class="work-details">
+        <p>二年次クラス内チーム制作作品少人数ながら短い期間でうまくゲームとして落とし込めゲームとしても楽しめる出来となった満足のいく作品<br>担当したとこアイテムのデータベース化インベントリーの実装ショップの生成処理図鑑や化石の収集要素の処理アイテムエフェクトなどの処理</p>
+      </div>
+    </div>
+
+    <!-- CG作品セクション -->
+<section class="cg-works">
+  <h2 class="cg-title">CG やその他 </h2>
+  <div class="cg-grid">
+
+    <div class="cg-card">
+      <img src="CG/ModularTVHead.png" alt="Booth作品1" class="cg-img">
+      <div class="cg-info">
+        <h3>ModularTVHead shader 【VRchat想定】</h3>
+        <p>HLSLのシェーダーの勉強で作成した作品
+          <br>VRChat向けに作成して販売しました
+        </p>
+        <a href="https://hakunan.booth.pm/items/6706399" target="_blank">Booth</a>
+      </div>
+    </div>
+
+        <div class="cg-card">
+      <img src="CG/agemono.jpg" alt="VRChat作品1" class="cg-img">
+      <div class="cg-info">
+        <h3>揚げ物ギミック　UdonSharp</h3>
+        <p>VRChatワールド向けでUDONSharpを使って開発をおこない販売しました
+          <br>Boothで販売をおこなっていた作品の中の代表作の一つです
+        </p>
+        <a href="https://hakunan.booth.pm/items/6573906" target="_blank">Booth</a>
+        <a href="https://youtu.be/s-V3HuQISPw" target="_blank">YouTube</a>
+      </div>
+    </div>
+
+    <div class="cg-card">
+      <img src="CG/VRCBOCCIA.jpg" alt="VRChat作品1" class="cg-img">
+      <div class="cg-info">
+        <h3>VRC_Boccia （ボッチャ）</h3>
+        <p>VRChatワールド　UDONSharpを使って開発をおこなった作品
+          <br>好きなスポーツBOCCIAを遊んでほしくて再現した作品です
+          <br>Favorites1000頂けました
+        </p>
+        <a href="https://vrchat.com/home/launch?worldId=wrld_9addd40d-58a2-40cf-83d3-5c056f0eeadd" target="_blank">VRChatWorld</a>
+      </div>
+    </div>
+    <div class="cg-card-horizontal">
+   <model-viewer
+    src="CG/CGPlayer.glb"
+    alt="A 3D model"
+    ar
+    camera-controls
+    autoplay
+    shadow-intensity="1"
+    exposure="0.5"
+  ></model-viewer>
+    <div class="cg-info">
+      <h3>リノ（キャラクターモデル）</h3>
+      <p>Blenderで制作した3Dモデルです
+        <br>リグなどウェイトの勉強で作成しました</p>
+    </div>
+  </div>
+      <div class="cg-card-horizontal">
+   <model-viewer
+    src="CG/室外機.glb"
+    alt="A 3D model"
+    ar
+    camera-controls
+    autoplay
+    shadow-intensity="1"
+    exposure="0.5"
+  ></model-viewer>
+    <div class="cg-info">
+      <h3>室外機</h3>
+      <p>Blenderで初めて制作したモデルです
+        <br>ゲーム利用のため勉強を始めました</p>
+    </div>
+  </div>
+
+  </div>
+</section>
+
+  </main>
+</body>
+</html>
