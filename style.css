@@ -55,15 +55,15 @@ p {
   align-items: flex-start;
   background: rgb(255, 255, 255);
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 4px solid #46005c;
 }
 
@@ -75,6 +75,12 @@ p {
 .profile-text p {
   margin-bottom: 1em;
   color: #000000;
+}
+
+.Tell {
+  background-color: #d6d6d6; 
+  padding: 10px; 
+  border-radius: 8px; 
 }
 
 /* Skill Section */
@@ -129,7 +135,7 @@ p {
 
 .work {
   background: rgb(255, 255, 255);
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   margin-bottom: 20px;
@@ -138,7 +144,7 @@ p {
 }
 
 .work:hover {
-  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 16px rgba(255, 0, 0, 0.1);
 }
 
 .work-header {
@@ -149,14 +155,14 @@ p {
 }
 
 .work-img {
-  width: 200px;
+  width: 300px;
   height: auto;
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
 
 .work-img:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .work-info {
